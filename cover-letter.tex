@@ -1,0 +1,28 @@
+\documentclass[11pt,a4paper]{letter}
+\usepackage{config_package}
+\usepackage[scale=0.75]{geometry}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=1000
+
+\name{\myname}
+\address{\textbf{\myname} \\ \mystreet \\ \mycity, \mycountry}
+
+\begin{document}
+	
+	\longindentation=0pt
+	\renewcommand\enclname{Attached}
+	
+	\begin{letter}{\textbf{\recipient} \\ \tocompany, \tocity, \tocountry}
+		\opening{To whom it may concern,}
+		
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+		
+		\closing{Yours sincerely,}
+
+		\encl{Academic Transcript, CV}
+		
+	\end{letter}
+\end{document}
