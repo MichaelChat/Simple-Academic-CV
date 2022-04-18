@@ -19,7 +19,7 @@
 
 \newcommand{\contact}{%
 	\noindent
-	\mystreet {\large\textperiodcentered} \mycity {\large\textperiodcentered} \mycountry
+	\mystreet { \large\textperiodcentered } \mycity { \large\textperiodcentered } \mycountry
 }
 
 \newcommand{\email}{%
